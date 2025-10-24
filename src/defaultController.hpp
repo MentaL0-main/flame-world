@@ -17,7 +17,7 @@ private:
     float xoffset = 0.0f;
     float yoffset = 0.0f;
 
-    glm::vec3 position  = {0.0f, 0.5f, 3.0f};
+    glm::vec3 position  = {0.0f, 0.01f, 3.0f};
     glm::vec3 front     = {0.0f, 0.0f, -1.0f};
     glm::vec3 up        = {0.0f, 1.0f, 0.0f};
     glm::vec3 direction = {0.0f, 0.0f, 0.0f};
@@ -27,8 +27,8 @@ private:
     float bobFrequency  = 1.8f;
     float bobTimer      = 0.0f;
 
-    float floorY  = 0.0f;
-    float eyeHeight = 1.7f;
+    float floorY    = 0.0f;
+    float eyeHeight = 1.0f;
 
     bool  isJumping = false;
     float velocityY = 0.0f;

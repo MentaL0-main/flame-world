@@ -13,6 +13,7 @@ It's game engine written by C++17.
 - OOP
 - STL
 - GLM
+- STB Image
 
 ## Quick start
 ```bash
@@ -40,4 +41,5 @@ clang++ -o flame-world ../src/*.cpp -lSDL3 -lGL -ltinyobjloader
 This project is licensed under the **MIT License**.
 
 - Project abandoned, will return someday.
+
 

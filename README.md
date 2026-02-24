@@ -24,7 +24,7 @@ git clone https://github.com/mental0-main/flame-world.git
 cd flame-world
 
 # Build
-clang++ -o flame-world ../src/*.cpp -lSDL3 -lGL -ltinyobjloader
+clang++ -o flame-world ./src/*.cpp -lSDL3 -lGL -ltinyobjloader
 
 # Run
 ./flame-world
@@ -41,6 +41,7 @@ clang++ -o flame-world ../src/*.cpp -lSDL3 -lGL -ltinyobjloader
 This project is licensed under the **MIT License**.
 
 - Project abandoned, will return someday.
+
 
 
 

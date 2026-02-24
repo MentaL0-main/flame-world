@@ -2,7 +2,7 @@
 
 It's game engine written by C++17.
 
-![gameplay](video/gameplay.gif)
+![gameplay](videos/gameplay.gif)
 
 ## Technologies
 - C++17
@@ -41,5 +41,6 @@ clang++ -o flame-world ../src/*.cpp -lSDL3 -lGL -ltinyobjloader
 This project is licensed under the **MIT License**.
 
 - Project abandoned, will return someday.
+
 
 
